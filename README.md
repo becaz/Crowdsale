@@ -1,5 +1,5 @@
 ## Crowdsale
-This smart contract allows to buy token buy sending ETH to the contract.
+This smart contract allows to buy token by sending ETH to the contract.
 
 When creating the contract it is provided with an initial rate and three EOAs:
 - payable wallet address, where ETH is deposited
