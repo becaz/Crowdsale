@@ -6,4 +6,4 @@ When creating the contract it is provided with an initial rate and three EOAs:
 - ERC20 token contract address
 - Contract owner address
 
-Only the contract owner is able to change the rate. The rate of the token to ETH is changeable and is set using the method `setRate`. Initially the rate is 1/300, i.e., 1 ETH = 300 Becaz.
+Only the contract owner is able to change the rate. The rate of the token to ETH is changeable and is set using the method `setRate`. Initially the rate is 1/300, i.e., 1 ETH = 300 Becaz. The rate value cannot be less than 0 or greater than 1,000,000,000.
