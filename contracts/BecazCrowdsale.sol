@@ -48,8 +48,8 @@ contract BecazCrowdsale is Crowdsale{
 
   // Uncomment this function when testing
   // and comment when deploying to the mainnet
-  function testGetTokenAmount(uint256 weiAmount) public view returns (uint256) {
+  /* function testGetTokenAmount(uint256 weiAmount) public view returns (uint256) {
       return _getTokenAmount(weiAmount);
-  }
+  } */
 
 }
