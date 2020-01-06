@@ -1,6 +1,6 @@
 const BecazCrowdsale = artifacts.require('BecazCrowdsale');
 
-contract('BecazCrowdsale2', () => {
+contract('BecazCrowdsale', () => {
   let contr = null;
   let otherAddr = null;
   let contractOwnerAddr = null;
